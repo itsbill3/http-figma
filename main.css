@@ -53,25 +53,22 @@
     display: flex;
     gap: 6px;
 }
-.cta-button1{
-    background: transparent;
+.cta-button{
     border: none;
     display: flex;
-    text-align: center;
     padding: 14px 20px;
     justify-content: center;
     align-items: center;
-    color: #6183E4;
     width: 151px;
     height: 48px;
+
+}
+.cta-button1{
+    background: transparent;
+    text-align: center;
+    color: #6183E4;
 }
 .cta-button2{
-    display: flex;
     background: #F7CE46;
     border-radius: 5px;
-    padding: 14px 20px;
-    justify-content: center;
-    align-items: center;
-    width: 151px;
-    height: 48px
 }
