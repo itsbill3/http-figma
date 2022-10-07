@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+.* {
+    font-family: inter;
+    font-weight: 600;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    gap: 40px;
+    padding-top: 33px;
+    padding-left: 123px;
+    color: #0F172A;
+}
+.logo{
+    padding-top: 33px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 32px;
+    padding-right: 70px;
+}
+.buttons1{
+    border: 1px #6183E4 solid;
+    text-align: center;
+    color: #6183E4;
+    padding: 12px 18px;
+    border-radius: 5px;
+   
+}
+.buttons2{
+    background: #1D4ED8;
+    color: #F8FAFC;
+    text-align: center;
+    padding: 12px 18px;
+    border-radius: 5px;
+   
+}
+.header{
+    display: flex;
+    padding-left: 100px;
+}
+.texts{
+    padding-top: 271px;
+    color: ;
+}
+.cta-buttons{
+    display: flex;
+    gap: 6px;
+}
+.cta-button1{
+    background: transparent;
+    border: none;
+    display: flex;
+    text-align: center;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #6183E4;
+    width: 151px;
+    height: 48px;
+}
+.cta-button2{
+    display: flex;
+    background: #F7CE46;
+    border-radius: 5px;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    width: 151px;
+    height: 48px
+}
